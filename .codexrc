@@ -1,6 +1,6 @@
 {
   "setup": {
-    "command": "npm run setup || (chmod +x setup.sh && ./setup.sh) || npm install --no-fund --no-audit && cp .env.example .env"
+    "command": "npm run setup || npm install --no-fund --no-audit && cp .env.example .env && npm run build"
   },
   "environment": {
     "runtime": "nodejs",

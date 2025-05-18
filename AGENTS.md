@@ -4,20 +4,13 @@ This project requires dependencies to be installed and environment to be set up 
 
 ## Required Setup Steps
 
-### Option 1: Using the setup script (Recommended)
-
-```bash
-chmod +x setup.sh
-./setup.sh
-```
-
-### Option 2: Using npm directly (If Option 1 fails)
+### Option 1: Using npm directly (Recommended)
 
 ```bash
 npm run setup
 ```
 
-### Option 3: Manual setup (If all else fails)
+### Option 2: Manual setup (If Option 1 fails)
 
 ```bash
 # Install dependencies

@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "chmod +x setup.sh && ./setup.sh",
     "setup": "npm install --no-fund --no-audit && cp .env.example .env && npm run build"
   },
   "dependencies": {

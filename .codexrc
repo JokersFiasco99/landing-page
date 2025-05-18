@@ -1,0 +1,18 @@
+{
+  "setup": {
+    "command": "chmod +x setup.sh && ./setup.sh"
+  },
+  "environment": {
+    "runtime": "nodejs",
+    "version": "18.x"
+  },
+  "project": {
+    "name": "Neumorphic Landing Page",
+    "framework": "nextjs",
+    "dependencies": [
+      "nextjs",
+      "tailwindcss",
+      "shadcn-ui"
+    ]
+  }
+} 

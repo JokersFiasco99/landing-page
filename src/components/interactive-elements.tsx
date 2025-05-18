@@ -28,7 +28,7 @@ export default function InteractiveElements() {
     const sections = document.querySelectorAll('section[id]');
     
     function highlightNavOnScroll() {
-      let scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY;
       
       sections.forEach(section => {
         // Type assertion for HTMLElement to access offsetTop and offsetHeight

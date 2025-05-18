@@ -17,7 +17,7 @@ export default function Home() {
         {/* Navbar */}
         <nav className="flex justify-between items-center mb-16">
           <div className="text-2xl font-bold bg-neutral-100 px-6 py-3 rounded-xl shadow-[5px_5px_10px_#d1d1d1,_-5px_-5px_10px_#ffffff]">
-            Brand
+            🤩 Brand 🌈
           </div>
           <ul className="hidden md:flex space-x-8">
             {["Home", "Features", "Pricing", "Contact"].map((item) => (
@@ -37,8 +37,9 @@ export default function Home() {
         <section id="home" className="flex flex-col md:flex-row items-center justify-between min-h-[70vh] py-16">
           <div className="md:w-1/2 md:pr-12 mb-12 md:mb-0">
             <h1 className="text-5xl font-bold mb-6 text-neutral-800">
-              Neumorphic Design
+              ✨ Neumorphic Design ✨
             </h1>
+            <div className="text-3xl mb-4">🎉✨🚀🎨🔒💖🌟🔥😊🌈</div>
             <p className="text-xl mb-8 text-neutral-600">
               Experience the future of user interfaces with our soft, minimal design.
             </p>
@@ -65,12 +66,12 @@ export default function Home() {
 
         {/* Features Section */}
         <section id="features" className="py-20 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-neutral-800">Key Features</h2>
+          <h2 className="text-4xl font-bold mb-16 text-neutral-800">Key Features 🔥</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: "🚀", title: "Fast & Efficient", description: "Optimized for speed and performance across all devices." },
-              { icon: "🎨", title: "Beautiful Design", description: "Modern neumorphic UI that stands out from the crowd." },
-              { icon: "🔒", title: "Secure & Reliable", description: "Built with security in mind to protect your data." }
+              { icon: "🚀", title: "Fast & Efficient", description: "Optimized for speed and performance across all devices. ⚡" },
+              { icon: "🎨", title: "Beautiful Design", description: "Modern neumorphic UI that stands out from the crowd. ✨" },
+              { icon: "🔒", title: "Secure & Reliable", description: "Built with security in mind to protect your data. 🔐" }
             ].map((feature, index) => (
               <Card 
                 key={index}
@@ -89,13 +90,13 @@ export default function Home() {
         {/* CTA Section */}
         <section id="pricing" className="py-20 text-center">
           <div className="max-w-3xl mx-auto bg-neutral-100 p-16 rounded-2xl shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff]">
-            <h2 className="text-4xl font-bold mb-4 text-neutral-800">Ready to Get Started?</h2>
-            <p className="text-xl mb-8 text-neutral-600">Join thousands of satisfied customers today.</p>
+            <h2 className="text-4xl font-bold mb-4 text-neutral-800">Ready to Get Started? 🎉</h2>
+            <p className="text-xl mb-8 text-neutral-600">Join thousands of satisfied customers today. 💪</p>
             <Button
               size="lg"
               className="bg-neutral-800 text-white shadow-[5px_5px_10px_#d1d1d1,_-5px_-5px_10px_#ffffff] hover:translate-y-[-3px] transition-all"
             >
-              Sign Up Now
+              Sign Up Now 🤝
             </Button>
           </div>
         </section>
@@ -103,9 +104,9 @@ export default function Home() {
         {/* Skeuomorphic Note Section */}
         <section id="note" className="py-20 flex justify-center">
           <div className="note-paper max-w-lg w-full">
-            <h3 className="text-2xl font-bold mb-4 text-neutral-800">A Personal Touch</h3>
+            <h3 className="text-2xl font-bold mb-4 text-neutral-800">A Personal Touch ✍️</h3>
             <p className="text-neutral-700 leading-relaxed">
-              Skeuomorphic elements like this lined notepad evoke familiar, tangible experiences while still fitting within a modern UI.
+              Skeuomorphic elements like this lined notepad evoke familiar, tangible experiences while still fitting within a modern UI. 📝
             </p>
           </div>
         </section>
@@ -139,7 +140,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center pt-6 border-t border-neutral-300">
-            <p className="text-neutral-600">&copy; 2023 Brand. All rights reserved.</p>
+            <p className="text-neutral-600">&copy; 2023 Brand. All rights reserved. 💖</p>
           </div>
         </footer>
       </div>

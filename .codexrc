@@ -1,6 +1,6 @@
 {
   "setup": {
-    "command": "chmod +x setup.sh && ./setup.sh"
+    "command": "npm run setup || (chmod +x setup.sh && ./setup.sh) || npm install --no-fund --no-audit && cp .env.example .env"
   },
   "environment": {
     "runtime": "nodejs",
@@ -13,6 +13,13 @@
       "nextjs",
       "tailwindcss",
       "shadcn-ui"
+    ]
+  },
+  "troubleshooting": {
+    "npmErrors": [
+      "Try installing with --force if there are dependency conflicts",
+      "Check Node.js version (14+ required)",
+      "Ensure the setup script has execute permissions"
     ]
   }
 } 

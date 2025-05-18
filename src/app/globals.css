@@ -120,3 +120,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Skeuomorphic lined paper effect */
+  .note-paper {
+    @apply bg-neutral-50 border border-neutral-300 rounded-xl p-8 shadow-[4px_4px_8px_#d1d1d1,_-4px_-4px_8px_#ffffff];
+    background-image: repeating-linear-gradient(
+      to bottom,
+      #fafafa 0px,
+      #fafafa 24px,
+      #ececec 25px,
+      #ececec 26px
+    );
+  }
+}

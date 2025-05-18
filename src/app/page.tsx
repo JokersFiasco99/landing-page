@@ -91,12 +91,22 @@ export default function Home() {
           <div className="max-w-3xl mx-auto bg-neutral-100 p-16 rounded-2xl shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff]">
             <h2 className="text-4xl font-bold mb-4 text-neutral-800">Ready to Get Started?</h2>
             <p className="text-xl mb-8 text-neutral-600">Join thousands of satisfied customers today.</p>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-neutral-800 text-white shadow-[5px_5px_10px_#d1d1d1,_-5px_-5px_10px_#ffffff] hover:translate-y-[-3px] transition-all"
             >
               Sign Up Now
             </Button>
+          </div>
+        </section>
+
+        {/* Skeuomorphic Note Section */}
+        <section id="note" className="py-20 flex justify-center">
+          <div className="note-paper max-w-lg w-full">
+            <h3 className="text-2xl font-bold mb-4 text-neutral-800">A Personal Touch</h3>
+            <p className="text-neutral-700 leading-relaxed">
+              Skeuomorphic elements like this lined notepad evoke familiar, tangible experiences while still fitting within a modern UI.
+            </p>
           </div>
         </section>
 

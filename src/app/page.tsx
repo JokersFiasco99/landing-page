@@ -17,7 +17,7 @@ export default function Home() {
         {/* Navbar */}
         <nav className="flex justify-between items-center mb-16">
           <div className="text-2xl font-bold bg-neutral-100 px-6 py-3 rounded-xl shadow-[5px_5px_10px_#d1d1d1,_-5px_-5px_10px_#ffffff]">
-            🤩 Brand 🌈
+            Brand
           </div>
           <ul className="hidden md:flex space-x-8">
             {["Home", "Features", "Pricing", "Contact"].map((item) => (
@@ -39,7 +39,6 @@ export default function Home() {
             <h1 className="text-5xl font-bold mb-6 text-neutral-800">
               ✨ Neumorphic Design ✨
             </h1>
-            <div className="text-3xl mb-4">🎉✨🚀🎨🔒💖🌟🔥😊🌈</div>
             <p className="text-xl mb-8 text-neutral-600">
               Experience the future of user interfaces with our soft, minimal design.
             </p>
